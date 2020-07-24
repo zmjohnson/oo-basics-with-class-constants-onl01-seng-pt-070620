@@ -4,6 +4,12 @@ class Book
 
   def initialize(title)
     @title = title
+    require 'pry'
+
+class Book
+  attr_accessor :author, :page_count
+  attr_reader :title, :genre
+
   end
 
   GENRES = []
